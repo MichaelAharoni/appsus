@@ -1,0 +1,18 @@
+.main-footer {
+	height: 10vh;
+	background-color: var(--dark);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.main-footer h1 {
+	font-family: "euro";
+}
+
+.main-footer h1 .logo {
+	font-size: 1.3em;
+}

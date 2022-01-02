@@ -1,0 +1,27 @@
+.keep-header {
+	height: inherit;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	font-weight: bold;
+	gap: 20px;
+	background-color: var(--main);
+}
+.keep-header a {
+	font-size: 3rem;
+}
+.no-notes {
+	font-size: 3rem;
+	text-align: center;
+	margin: auto;
+}
+
+.note-list {
+	margin: auto;
+	width: 90%;
+	direction: rtl;
+	column-width: 300px;
+	background-color: var(--main);
+}

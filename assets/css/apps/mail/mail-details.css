@@ -1,0 +1,100 @@
+.mail-details.container {
+    background-color: #FFF;
+    margin:auto;
+    width:50%;
+    margin-block-start: 5vh;
+    position: relative;
+    border-radius:25px;
+    border:1px solid var(--dark);
+    overflow: hidden;
+    }
+    
+    .mail-details header {
+    color: #fff;
+    font-weight: bolder;
+    background-color: var(--dark);
+    }
+    
+    .mail-details.line {
+        width:100%;
+        border-block-end: 1px solid var(--dark);
+        font-size: 1vw;
+        position: relative;
+        width: 100%;
+    }
+    
+    .mail-details footer {
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 1%;
+    }
+    
+    .mail-details footer button {
+        font-size:30px;
+        background-color:inherit;
+        border:unset;
+        border: 5px;
+    }
+    
+    .mail-details.line input {
+        background-color:inherit;
+        border: unset;
+        flex-grow: 1;
+    }
+    
+    .mail-details #subject {
+        border: unset;
+    flex-grow: 1;
+    background-color:inherit;
+    height:700px;
+    width:100%;
+    }
+
+    .mail-details.line.layout {
+    justify-content:flex-start;
+        padding-inline-start: 7.6vw;
+    }
+
+    .mail-details.line.layout span {
+        font-weight: 300;
+    }
+
+    .main-txt {
+        padding-block-start: 30px;
+        padding-block-end: 60px;
+    }
+
+    .mail-details.btn {
+        margin:auto;
+        padding-inline-start: 22.5vw;
+        font-size: 28px;
+    }
+
+    .mail-details.btn >* {
+        text-decoration: unset;
+    }
+
+    .mail-details-time {
+        position: absolute;
+        padding-inline-end: 7vw;
+        right: 0;
+    }
+
+    @media screen and (max-width: 768px){
+        .mail-details.line {
+            font-size: 4vw;
+        }
+        .mail-details.container {
+            width: 60%;        }
+            .line-details {
+                height:60px
+            }
+            .mail-details-time {
+                bottom:3%;
+            }
+            .mail-details.btn {
+                padding-inline-start: 60px;
+            }
+    }

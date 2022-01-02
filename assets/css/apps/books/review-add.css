@@ -1,0 +1,69 @@
+.review-add {
+	background-color: var(--dark);
+}
+.review-add h1 {
+	margin: 0;
+}
+.review-add form {
+	width: 90%;
+}
+
+.review-add form {
+	font-size: 1.3rem;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+.name,
+.rate,
+.date {
+	margin-bottom: 5px;
+	text-align: center;
+}
+.review {
+	width: 100%;
+}
+.review #review {
+	text-align: center;
+	width: 100%;
+}
+.search::before {
+	content: "\f002";
+}
+#filter-btn {
+	font-size: 2rem;
+}
+
+.books-filter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5vh;
+	background-color: var(--main);
+	margin-bottom: 20px;
+}
+.no-book {
+	text-align: center;
+	margin: auto;
+	color: var(--dark);
+	font-size: 2rem;
+}
+.books-filter label {
+	color: var(--dark);
+}
+.books-filter input {
+	margin-inline-start: 5px;
+	height: 3rem;
+	text-align: center;
+	display: flex;
+	border-radius: 15px;
+	border: none;
+	text-align: center;
+	color: var(--dark);
+	margin: 0 5px;
+	font-weight: bold;
+}
+.books-filter input::placeholder {
+	color: var(--dark);
+	font-weight: bold;
+}

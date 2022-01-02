@@ -1,0 +1,159 @@
+.mail-compose.container {
+	background-color: #fff;
+	margin: auto;
+	width: 50%;
+	margin-block-start: 6vh;
+	position: relative;
+	border-radius: 25px;
+	border: 1px solid var(--dark);
+	overflow: hidden;
+}
+
+.mail-compose header {
+	color: #fff;
+	font-weight: bolder;
+	background-color: var(--dark);
+}
+
+.mail-compose.line {
+	width: 100%;
+	border-block-end: 1px solid var(--dark);
+	font-size: 1vw;
+	position: relative;
+	width: 100%;
+}
+
+.mail-compose footer {
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 1%;
+}
+
+.mail-compose footer button {
+	font-size: 30px;
+	background-color: inherit;
+	cursor: pointer;
+	border: unset;
+	border: 5px;
+	color: var(--dark);
+}
+
+.mail-compose.line input {
+	background-color: inherit;
+	border: unset;
+	width: 33vw;
+	font-size: 0.9vw;
+}
+
+.mail-compose #subject {
+	border: unset;
+	background-color: inherit;
+	height: 365px;
+	width: 33vw;
+}
+
+.mail-compose header {
+	color: #fff;
+	font-weight: bolder;
+	background-color: var(--dark);
+}
+
+.mail-compose.line {
+	width: 100%;
+	border-block-end: 1px solid var(--dark);
+	font-size: 1vw;
+	position: relative;
+	width: 100%;
+}
+
+.mail-compose footer {
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 1%;
+}
+
+.mail-compose footer button {
+	font-size: 30px;
+	background-color: inherit;
+	border: unset;
+	border: 5px;
+}
+
+.mail-compose #subject {
+	border: unset;
+	flex-grow: 1;
+	background-color: inherit;
+	height: 365px;
+	width: 100%;
+}
+
+.mail-compose > * :focus-visible {
+	outline: unset;
+}
+
+.mail-compose.line.layout {
+	justify-content: flex-start;
+	padding-inline-start: 7.6vw;
+}
+
+.mail-compose.line.layout span {
+	font-weight: 300;
+}
+
+.main-txt {
+	padding-block-start: 30px;
+	padding-block-end: 60px;
+}
+
+.mail-compose.btn {
+	margin: auto;
+	padding-inline-start: 22.5vw;
+	font-size: 28px;
+}
+
+.mail-compose.btn > * {
+	text-decoration: unset;
+}
+
+.mail-compose-time {
+	position: absolute;
+	padding-inline-end: 7vw;
+	right: 0;
+}
+
+.note-send::before {
+	content: "\f46d";
+}
+
+@media screen and (max-width: 768px){
+    .mail-compose.line {
+        font-size: 5vw;
+    }
+    .mail-compose.container {
+        width: 60%;     
+        height: 120vw;
+       }
+
+        .mail-details-time {
+            bottom:3%;
+        }
+        .mail-compose input::placeholder {
+            font-size:3vw;
+        }
+        .mail-compose input {
+            height:40px;
+        }
+        .mail-compose.btn {
+            margin-top: 200px;
+            background-color:green;
+        }
+
+        .mail-compose #subject {
+            height: 60vw;
+            width:120%;
+        }
+}

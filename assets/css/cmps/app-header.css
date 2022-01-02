@@ -1,0 +1,123 @@
+.app-header {
+	display: flex;
+	align-items: center;
+	background-color: var(--dark);
+	height: 10vh;
+	margin-block-end: 2vh;
+}
+
+.logo {
+	font-family: "appsus";
+	font-weight: 900;
+	font-size: 3em;
+	margin: 0;
+	cursor: pointer;
+}
+
+.app-header .main-nav a {
+	text-decoration: none;
+	color: inherit;
+	font-size: 1.7em;
+	font-family: "monst";
+	font-weight: 500;
+}
+
+.app-header .main-nav a.active {
+	color: var(--back);
+	font-weight: 800;
+	text-decoration: underline;
+}
+
+.app-header .main-nav a:hover {
+	color: whitesmoke;
+}
+
+.app-header .main-nav a.my-active {
+	color: var(--head);
+	font-weight: 900;
+	text-decoration: underline;
+}
+
+.app-header .main-nav > *:not(:last-child) {
+	margin-inline-end: 1rem;
+}
+.black-screen {
+	cursor: pointer;
+	height: 500vh;
+	width: 100vw;
+	background-color: black;
+	opacity: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+@media (max-width: 900px) {
+	.main-nav {
+		height: auto;
+		position: fixed;
+		top: 0;
+		right: 0;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		background-color: var(--dark);
+		width: 200px;
+		transform: translateX(100%);
+		z-index: 31;
+		border: 3px solid;
+		border-radius: 30px;
+		transition: transform 0.6s, box-shadow 0.6s;
+	}
+	.black-screen {
+		position: fixed;
+		opacity: 0.3;
+		z-index: 30;
+	}
+
+	.hamburger {
+		cursor: pointer;
+		font-size: 3rem;
+		color: white;
+	}
+	.hamburger::after {
+		content: "☰";
+	}
+	.member {
+		height: 200px;
+	}
+}
+@media (max-width: 600px) {
+	.member {
+		height: 150px;
+	}
+	.member-info p {
+		font-size: 3.5vw;
+	}
+
+	.main-footer h1 {
+		text-align: center;
+		font-size: 1.3rem;
+	}
+	.keep-header {
+		flex-wrap: wrap;
+	}
+	.text-fillter {
+		width: 70%;
+	}
+	.note-list {
+		display: flex;
+		columns: unset;
+		flex-direction: column;
+		column-width: unset !important;
+		justify-content: center;
+		align-items: center;
+	}
+	.add-note-form {
+		width: 80%;
+	}
+}
+
+.open {
+	box-shadow: 0px 0px 30px rgb(0 0 0 / 30%);
+	transform: translateX(0%);
+}

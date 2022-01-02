@@ -1,0 +1,55 @@
+@font-face {
+	font-family: fab;
+	src: url("../../fonts/fa-brands-400.ttf");
+}
+@font-face {
+	font-family: fas;
+	src: url("../../fonts/fa-solid-900.ttf");
+}
+
+@font-face {
+	font-family: far;
+	src: url("../../fonts/fa-regular-400.ttf");
+}
+
+@font-face {
+	font-family: monst;
+	src: url("../../fonts/Montserrat-ExtraLight.ttf");
+}
+
+@font-face {
+	font-family: lato;
+	src: url("../../fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+	font-family: euro;
+	src: url("../../fonts/eurof55.ttf");
+}
+@font-face {
+	font-family: public;
+	src: url("../../fonts/PublicSans-ThinItalic.ttf");
+}
+@font-face {
+	font-family: public-bold;
+	src: url("../../fonts/PublicSans-ExtraBoldItalic.ttf");
+}
+@font-face {
+	font-family: appsus;
+	src: url("../../fonts/OoohBaby-Regular.ttf");
+}
+
+.fab {
+	font-family: "fab";
+	color: var(--dark);
+}
+
+.far {
+	font-family: "far";
+	color: var(--dark);
+}
+
+.fas {
+	font-family: "fas";
+	color: var(--dark);
+}

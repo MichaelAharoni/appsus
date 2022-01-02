@@ -1,0 +1,91 @@
+.add-note {
+	position: fixed;
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.657);
+	top: 0;
+	left: 0;
+	z-index: 9;
+}
+
+.add-note-form {
+	flex-direction: column;
+	position: fixed;
+	z-index: 10;
+	display: flex;
+	height: fit-content;
+	min-height: 50vh;
+	width: 50vw;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: var(--main);
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 40px;
+}
+.add-note-form input {
+	height: 3rem;
+	display: flex;
+	border-radius: 15px;
+	border: none;
+	text-align: center;
+	color: var(--dark);
+	font-weight: bold;
+	background-color: var(--back);
+}
+.input-btn {
+	background-color: var(--back);
+	border: 2px solid var(--dark);
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.list-label-container,
+.todo-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.list-label-container label,
+.todo-container label {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.add-note-ctg {
+	cursor: pointer;
+	font-size: 3rem;
+}
+
+#active-ctg {
+	background-color: var(--back);
+	border: 2px solid;
+	border-radius: 20px;
+}
+
+.note-text-add {
+	width: 50%;
+	height: 50%;
+}
+
+.color {
+	position: relative;
+	font-size: 2rem;
+}
+#color {
+	padding: 3px;
+	border-radius: 15px;
+	background-color: var(--back);
+}
+
+.color-container input {
+	height: 2.5rem;
+	width: 2.5rem;
+	opacity: 0;
+	position: relative;
+	bottom: 2.5rem;
+	cursor: pointer;
+}

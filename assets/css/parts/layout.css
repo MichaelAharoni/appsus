@@ -1,0 +1,46 @@
+.layout-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.layout {
+	width: 70%;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.flex {
+	display: flex;
+}
+
+.between {
+	justify-content: space-between;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.center {
+    justify-content: center;
+}
+
+#center {
+    justify-content: center;
+}
+
+.sidebar-layout {
+	max-width: 10vw;
+}
+

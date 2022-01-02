@@ -1,0 +1,54 @@
+.note-preview {
+	display: inline-flex;
+	position: relative;
+	width: 300px;
+	height: max-content;
+	min-height: 150px;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 15px;
+}
+
+.btn-container {
+	position: absolute;
+	bottom: 0;
+	direction: ltr;
+	right: 20px;
+	flex-direction: row-reverse;
+}
+
+#delete-note,
+#duplicate-note,
+#edit-note,
+#pin-note,
+#send-note {
+	font-size: 1.2rem;
+	margin-inline-start: 10px;
+	margin-bottom: 5px;
+	color: var(--main);
+	border-radius: 15px;
+	background-color: rgba(0, 0, 0, 0.275);
+	display: flex;
+}
+
+#pin-note {
+	position: absolute;
+	top: 2%;
+	right: 20px;
+}
+
+.duplicate::before {
+	content: "\f24d";
+}
+
+.edit::before {
+	content: "\f044";
+}
+
+.pin::before {
+	content: "\f08d";
+}
+
+.color::before {
+	content: "\f53f";
+}

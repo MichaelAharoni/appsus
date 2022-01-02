@@ -1,0 +1,64 @@
+/* parts */
+@import "../css/parts/basics.css";
+@import "../css/parts/layout.css";
+@import "../css/parts/fonts.css";
+@import "../css/parts/home.css";
+@import "../css/parts/about.css";
+
+/* cmps */
+@import "../css/cmps/user-msg.css";
+@import "../css/cmps/app-header.css";
+@import "../css/cmps/app-footer.css";
+
+/* books */
+@import "../css/apps/books/book-list.css";
+@import "../css/apps/books/book-preview.css";
+@import "../css/apps/books/book-details.css";
+@import "../css/apps/books/review-add.css";
+@import "../css/apps/books/add-book.css";
+
+/* keep */
+@import "../css/apps/keep/note-preview.css";
+@import "../css/apps/keep/keep-app.css";
+@import "../css/apps/keep/types/note-Img.css";
+@import "../css/apps/keep/types/note-todos.css";
+@import "../css/apps/keep/types/note-txt.css";
+@import "../css/apps/keep/types/note-video.css";
+@import "../css/apps/keep/note-fillter.css";
+@import "../css/apps/keep/add-note.css";
+
+/* mail */
+@import "../css/apps/mail/mail-preview.css";
+@import "../css/apps/mail/mail-list.css";
+@import "../css/apps/mail/mail-compose.css";
+@import "../css/apps/mail/mail-details.css";
+@import "../css/apps/mail/mail-filter.css";
+@import "../css/apps/mail/mail-folder-list.css";
+@import "../css/apps/mail/mail-txt.css";
+
+/* color plate */
+#root {
+	--head: #f0e5cf;
+	--main: #f7f6f2;
+	--back: #c8c6c6;
+	--dark: #4b6587;
+
+	font-family: "public", "Segoe UI", Tahoma, Verdana, sans-serif;
+	font-weight: 600;
+}
+
+body {
+	margin: 0;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+.app {
+	height: inherit;
+	background-color: var(--main);
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 15vh;
+}
